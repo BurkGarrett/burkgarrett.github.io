@@ -6,7 +6,7 @@
 }
 
 header {
-	background-color: white;
+	background-color: #FFED74;
 	font-family: 'Lato', sans-serif;
 	text-align: center;
 	color: #073865;
@@ -14,41 +14,53 @@ header {
 }
 
 body {
-	background-image: "connectstock-001-compressor.jpeg"
+	background-image: url("connectstock-001-compressor.jpeg");
 	background-size: 100% auto;
 	background-repeat: no-repeat; 
-	font-size: 20px; /*1em = 20px*/
+	font-size: 20px; /*1em = 16px*/
 	color: black;
 }
 
+div {
+	background-color: #FFE2B8
+}
+
+section {
+	padding-top: 30px;
+	background-color: #FFE2B8;
+}
+
 footer {
-	background: white;
+	background: #FF957E;
 	font-family: Lato, sans-serif;
 	font-size: 16px;
 	padding: 20px;
 	text-align: center;
-	margin-top: 175px;
+	margin-top: 450px;
 }
 
 h1 {
 	font-family: 'Roboto', sans-serif;
 	color: #073865;
+	text-align: center
 }
 
 h2 {
 	font-family: 'Roboto', sans-serif;
-	color: black;
+	font-size: 40px;
+	color: white;
 	padding-top: 75px;
-	text-align: center;
+	text-align: left;
+	margin-left: 45px;
 }
 
 p { 
 	font-family: Lato, sans-serif;
 	font-size: 1em;
-	text-align: center;
-	color: black;
-	margin-right: 45px;
-	margin-left: 45px;
+	text-align: left;
+	color: white;
+	padding-left: 45px;
+	padding-right: 825px;
 }
 
 a {
@@ -56,9 +68,10 @@ a {
 	color: #bfd762;
 }
 
-nav a{
-	color: black;
+nav a {
+	color: #E8C66A;
 	font-size: 16px;
 	text-decoration: none;
 	margin-right: 20px;
+	padding-top: 10px;
 }
